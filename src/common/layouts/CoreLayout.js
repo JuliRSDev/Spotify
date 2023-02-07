@@ -5,7 +5,10 @@ import Player from '../components/Player';
 
 function CoreLayout({ children , history }) {
   return (
-    <div className="main">
+      <>
+          {children}
+      </>
+    /*<div className="main">
       <SideBar />
       <div className="main__content">
         <Header history={history} />
@@ -14,7 +17,7 @@ function CoreLayout({ children , history }) {
         </div>
       </div>
       <Player />
-    </div>
+    </div>*/
   );
 }
 
